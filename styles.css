@@ -1,9 +1,16 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+}
+
+#button {
+  background-color: red;
+  padding: 10px 20px;
+  margin-bottom: 10px;
 }
 
 #grid-container {
@@ -11,7 +18,6 @@ body {
   flex-wrap: wrap;
   width: 320px;
   height: 320px;
-  border: 2px solid black;
 }
 
 .grid-item {
